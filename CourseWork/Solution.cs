@@ -3,7 +3,7 @@
 namespace CourseWork
 {
     /// <summary>
-    /// Класс решения дифференциального уравнения
+    /// Класс решения интегрального уравнения
     /// </summary>
     public class Solution
     {

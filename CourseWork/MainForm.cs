@@ -106,12 +106,6 @@ namespace CourseWork
             }
         }
 
-        private void FunctionText_Leave(object sender, EventArgs e)
-        {
-            // Получение введенной пользователем функции f(t)
-            string Function = FunctionChoice.Text;
-        }
-
         private void DoubleInputCheck_KeyPress(object sender, KeyPressEventArgs e)
         {
             // Вызов функции проверки ввода на формат Double

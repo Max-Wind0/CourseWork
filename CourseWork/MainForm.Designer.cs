@@ -178,7 +178,7 @@
             this.FunctionChoice.Margin = new System.Windows.Forms.Padding(2);
             this.FunctionChoice.Name = "FunctionChoice";
             this.FunctionChoice.Size = new System.Drawing.Size(196, 25);
-            this.FunctionChoice.TabIndex = 19;
+            this.FunctionChoice.TabIndex = 20;
             // 
             // ParameterX0Label
             // 
@@ -199,7 +199,7 @@
             this.ParameterX0Text.Margin = new System.Windows.Forms.Padding(4);
             this.ParameterX0Text.Name = "ParameterX0Text";
             this.ParameterX0Text.Size = new System.Drawing.Size(196, 23);
-            this.ParameterX0Text.TabIndex = 20;
+            this.ParameterX0Text.TabIndex = 19;
             this.ParameterX0Text.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.DoubleInputCheck_KeyPress);
             this.ParameterX0Text.Leave += new System.EventHandler(this.ParameterX0Text_Leave);
             // 

@@ -24,7 +24,7 @@ namespace CourseWork
             double Alpha = 0.000001;
             double Zeta = Alpha / (StepOfX * StepOfX);
 
-            // Задание множителя x0 в ядре диффиренциального уравнения и количества элементов суммы
+            // Задание множителя x0 в ядре интегрального уравнения и количества элементов суммы
             double ParameterX0 = double.Parse(task.ParameterX0Text);
             int NumberOfElements = int.Parse(task.NumberOfElementsText);
 
@@ -73,7 +73,7 @@ namespace CourseWork
                     break;
             }
 
-            // Создание матрицы для хранения значений ядра дифференциального оператора
+            // Создание матрицы для хранения значений ядра интегрального оператора
             double[,] CoreMatrix = new double[NumberOfPoints, NumberOfPoints];
 
             // Заполнение матрицы 
@@ -142,7 +142,7 @@ namespace CourseWork
             // Вызов функции для решения СЛАУ
             double[] ArrayOfY = MatrixController.SolveMatrix(A, B);
 
-            // Создание нового экземпляра класса решения диффиренциального уравнения
+            // Создание нового экземпляра класса решения интегрального уравнения
             Solution solution = new Solution();
 
             // Расчёт ошибки при решение обратной задачи теплообмена (отличие идеального от полученного)
